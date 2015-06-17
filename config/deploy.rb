@@ -19,7 +19,7 @@ set :format, :pretty
 set :use_sudo, true            
 set :user, "deployer"
 set :default_env, { rvm_bin_path: '~/.rvm/bin' }
-
+#set :default_env, { path: "~/.rbenv/shims:~/.rbenv/bin:$PATH" }
 # setup rvm.
 #set :rbenv_type, :system
 #set :rbenv_ruby, '2.1.2'
